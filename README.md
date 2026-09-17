@@ -4,7 +4,6 @@ The modified printer driver files are too large for me to host here on Github. H
 
 - Download the installer directly from HP [here](https://ftp.hp.com/pub/softlib/software12/HP_Quick_Start/osx/Applications/ASU/HewlettPackardPrinterDrivers.dmg) <br><br>
 - Using your terminal, `cd` into the folder where you saved the installer .dmg <br> `cd [path-to-downloaded-files]` <br><br>
-- Click to open the HewlettPackardPrinterDrivers.dmg file and drag/drop the .pkg file into the same folder <br><br> 
 - Expand the package <br> 
 `pkgutil --expand HewlettPackardPrinterDrivers.pkg drivers`<br><br>
 - Using your code editor, remove line 6 "`<installation-check ... />`" from the file `drivers/Distribution`<br><br>
