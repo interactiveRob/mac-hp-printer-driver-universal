@@ -1,0 +1,8 @@
+*.zip
+*.sql
+node_modules
+.bak
+.env
+/.Trash*
+.DS_Store
+*.log
